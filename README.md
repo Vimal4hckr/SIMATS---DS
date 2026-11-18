@@ -1,84 +1,126 @@
-# SIMATS - Data Structures
+# SIMATS – Data Structures Lab
 
-A collection of C programming programs, algorithm implementations, and practice problems for learning data structures and improving problem-solving skills.
+A collection of **C programming lab programs and practice exercises** for learning Data Structures and Algorithms (DSA). This repository is organized topic-wise to help students practise core concepts, understand implementations, and improve problem-solving skills.
 
-## 📚 Repository Contents
+## 📚 Topics Covered
 
-### 1. Arrays and Recursion
-Programs and exercises covering array operations and recursive problem-solving techniques in C.
+| Topic | Description |
+|---|---|
+| Arrays and Recursion | Array operations and recursive problem-solving |
+| Linked Lists | Node-based data storage and linked-list operations |
+| Searching | Searching techniques and related exercises |
+| Stack | LIFO operations and stack-based applications |
+| Queue | FIFO operations and queue-based applications |
 
-### 2. Searching
-Programs demonstrating searching algorithms and related practice problems, including:
-- Linear Search
-- Binary Search
-- Searching-based programming exercises
+## 📁 Repository Structure
+
+```text
+SIMATS---DS/
+├── Arrays and Recursion/
+├── Linked_list/
+│   ├── 1.c
+│   ├── 2.c
+│   ├── 3.c
+│   ├── 4.c
+│   └── 5.c
+├── Searching/
+├── stack/
+│   ├── 1.c
+│   ├── 2.c
+│   ├── 3.c
+│   ├── 4.c
+│   └── 5.c
+├── queue/
+│   ├── 1.c
+│   ├── 2.c
+│   ├── 3.c
+│   ├── 4.c
+│   └── 5.c
+├── .vscode/
+└── README.md
+```
 
 ## 🛠️ Technologies Used
 
-- **Programming Language:** C
-- **Code Editor:** Visual Studio Code
-- **Compiler:** GCC
-- **Version Control:** Git and GitHub
+- Programming Language: C
+- Code Editor: Visual Studio Code
+- Compiler: GCC
+- Version Control: Git and GitHub
 
 ## 🚀 Getting Started
 
-### Step 1: Clone the Repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/Vimal4hckr/SIMATS---DS.git
 ```
 
-### Step 2: Open the Project
+### 2. Open in VS Code
 
 ```bash
 cd SIMATS---DS
 code .
 ```
 
-### Step 3: Compile a C Program
-
-Make sure GCC is installed and available in your terminal.
+### 3. Check GCC Installation
 
 ```bash
-gcc filename.c -o program
+gcc --version
 ```
 
-Replace `filename.c` with the name of your C source file.
+### 4. Compile a C Program
 
-### Step 4: Run the Program
+```bash
+gcc 1.c -o program
+```
 
-On Windows Command Prompt:
+### 5. Run the Program
 
-```cmd
-program.exe
+**Windows:**
+
+```bash
+.\program.exe
+```
+
+**Linux / macOS:**
+
+```bash
+./program
 ```
 
 ## 🎯 Learning Objectives
 
-- Understand fundamental data structures and algorithms.
-- Develop problem-solving skills using C.
-- Practice arrays, recursion, and searching techniques.
-- Learn to compile and execute C programs.
-- Maintain and organize programming exercises using Git and GitHub.
+- Understand fundamental data structures and their operations.
+- Implement data structures using C.
+- Learn arrays, linked lists, stacks, and queues.
+- Practise searching and recursion techniques.
+- Understand program execution through inputs and outputs.
+- Develop problem-solving and debugging skills.
 
-## 📁 Project Structure
+## 🧪 Practice Guidelines
 
-```text
-SIMATS---DS/
-├── Arrays and Recursion/
-├── Searching/
-├── .vscode/
-└── README.md
-```
+1. Read the problem statement carefully.
+2. Identify the required data structure.
+3. Implement the solution using C.
+4. Compile and execute the program.
+5. Test normal cases and edge cases.
 
 ## 🤝 Contributions
 
-Suggestions and improvements are welcome. Fork the repository, create a branch for your changes, and submit a pull request.
+Contributions and suggestions are welcome.
+
+1. Fork this repository.
+2. Create a new branch.
+3. Add or improve a program.
+4. Test your code.
+5. Submit a pull request with a clear description.
 
 ## 📌 Purpose
 
-This repository serves as a learning resource for C programming, data structures, algorithms, and hands-on programming practice.
+This repository serves as a learning resource for students studying **Data Structures using C at SIMATS**. It supports laboratory preparation, programming practice, revision, and hands-on implementation.
 
 ---
 
 **Maintained by [Vimal4hckr](https://github.com/Vimal4hckr)**
+
+**Repository:** [SIMATS---DS](https://github.com/Vimal4hckr/SIMATS---DS)
